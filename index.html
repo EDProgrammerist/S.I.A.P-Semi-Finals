@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KJMJ Vapestore</title>
+  <link rel="icon" type="image/png" href="images/vapelogo.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="images/vapelogo.png">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/2a15941d52483b1fa911524dd6bf324242e28344.png" alt="Logo" class="rounded-circle shadow" style="width:80px;height:80px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#featured-products">Product</a></li>
+          <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#find-us">Find Us</a></li>
+          <li class="nav-item"><a class="nav-link fw-medium text-dark" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-flex align-items-center gap-3">
+        <a href="#" class="text-dark fw-medium text-decoration-none">Account</a>
+        <a href="#" class="cart-icon">
+          <img src="images/0_36.svg" alt="Cart" style="width:38px;height:38px;">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="py-5 text-center text-lg-start">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between gap-5">
+      <div class="hero-content">
+        <h1 class="fw-semibold display-4">Welcome to<br>KJMJ Vapestore</h1>
+        <p class="lead">Your one-stop shop for high-quality vape products.</p>
+        <a href="#featured-products" class="btn btn-dark btn-lg rounded-pill mt-3">Explore →</a>
+      </div>
+      <div class="hero-image text-center text-lg-end">
+        <img src="images/e789e65ed2f93e241d811b45df9707fd4bcb5f91.png" alt="Vape product" class="img-fluid" style="max-width:500px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="featured-products" class="py-5 text-center">
+    <div class="container">
+      <h2 class="section-title mb-3">Featured Products</h2>
+      <hr class="title-underline mb-5">
+      <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card">
+            <img src="images/GeekVape B100.png" class="img-fluid product-image" alt="GeekVape B100">
+            <h3 class="product-name">GeekVape B100</h3>
+            <div class="product-rating">
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star"></span>
+            </div>
+            <p class="product-price">$59.00</p>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card">
+            <img src="images/JOOZES.png" class="img-fluid product-image" alt="JOOZE Strawberry">
+            <h3 class="product-name">JOOZE - Strawberry</h3>
+            <div class="product-rating">
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star"></span>
+            </div>
+            <p class="product-price">$59.00</p>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card">
+            <img src="images/FreeMax.png" class="img-fluid product-image" alt="Freemax M Pro 2">
+            <h3 class="product-name">Freemax - M Pro 2</h3>
+            <div class="product-rating">
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star"></span>
+            </div>
+            <p class="product-price">$59.00</p>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card">
+            <img src="images/Hellvape.png" class="img-fluid product-image" alt="Hellvape Cotton">
+            <h3 class="product-name">Hellvape Shoelace Organic Cotton</h3>
+            <div class="product-rating">
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star"></span>
+            </div>
+            <p class="product-price">$59.00</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Products -->
+  <section id="latest-products" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2 class="section-title mb-3">Latest Products</h2>
+      <hr class="title-underline mb-5">
+      <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card">
+            <img src="images/Vaperesso.png" class="img-fluid product-image" alt="Latest Product 1">
+            <h3 class="product-name">Vaporesso SWAG</h3>
+            <div class="product-rating">
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star filled"></span><span class="star"></span>
+              <span class="star"></span>
+            </div>
+            <p class="product-price">$69.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card">
+            <img src="images/LostVape.png" class="img-fluid product-image" alt="Latest Product 2">
+            <h3 class="product-name">Lost Vape Ursa</h3>
+            <div class="product-rating">
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star filled"></span><span class="star"></span>
+              <span class="star"></span>
+            </div>
+            <p class="product-price">$64.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card">
+            <img src="images/FreeMax.png" class="img-fluid product-image" alt="Latest Product 3">
+            <h3 class="product-name">Freemax - M2 Pro</h3>
+            <div class="product-rating">
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star"></span>
+            </div>
+            <p class="product-price">$49.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card">
+            <img src="images/JOOZEM.png" class="img-fluid product-image" alt="Latest Product 4">
+            <h3 class="product-name">JOOZE - Menthol</h3>
+            <div class="product-rating">
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star filled"></span><span class="star filled"></span>
+              <span class="star"></span>
+            </div>
+            <p class="product-price">$45.00</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="text-center py-5">
+    <div class="container">
+      <h2 class="section-title mb-3">About Us</h2>
+      <hr class="title-underline mb-4">
+      <p class="mx-auto" style="max-width:900px;">
+        We offer high-quality vape products with excellent designs at affordable prices.
+        KJMJ Vapestore was founded by Eujae Densing, who aim to make vaping accessible and enjoyable.
+      </p>
+    </div>
+  </section>
+
+  <!-- Find Us (with your image) -->
+  <section id="find-us" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="section-title mb-3">Find Us</h2>
+      <hr class="title-underline mb-4">
+      <div class="embed-map-responsive">
+        <img src="/images/location.png" alt="Map to KJMJ Store" class="img-fluid rounded shadow-lg">
+      </div>
+      <p class="text-secondary mt-4">Visit our physical store at Cordova Kasadya Calan, KJMJ.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-3 text-center">Contact Us</h2>
+      <hr class="title-underline mb-5">
+      <div class="row g-5 align-items-start">
+        <div class="col-12 col-lg-6">
+          <div class="d-flex flex-column gap-4">
+            <div class="d-flex gap-3 align-items-start">
+              <img src="images/0_131.svg" width="48" height="48" alt="">
+              <div>
+                <p class="fw-semibold mb-1">XYZ Road, ABX Building</p>
+                <p class="text-secondary">Kasadya Calan</p>
+              </div>
+            </div>
+            <div class="d-flex gap-3 align-items-start">
+              <img src="images/0_135.svg" width="48" height="48" alt="">
+              <div>
+                <p class="fw-semibold mb-1">+62 8212345678</p>
+                <p class="text-secondary">Mon–Sat, 10AM–6PM</p>
+              </div>
+            </div>
+            <div class="d-flex gap-3 align-items-start">
+              <img src="images/0_133.svg" width="48" height="48" alt="">
+              <div>
+                <p class="fw-semibold mb-1">info@kjmjvapestore.com</p>
+                <p class="text-secondary">Email us your query</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <form class="d-flex flex-column gap-3">
+            <input type="text" class="form-control" placeholder="Enter your name">
+            <input type="email" class="form-control" placeholder="Enter your email">
+            <input type="text" class="form-control" placeholder="Enter your subject">
+            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-secondary fw-semibold rounded-pill">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row text-center text-lg-start g-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4>Download our App</h4>
+          <div class="d-flex flex-column gap-3">
+            <a href="#"><img src="images/18f0c7025a758e7d9a1dabb2c9dc8feb0316a515.png" width="150" alt="App Store"></a>
+            <a href="#"><img src="images/1cbe29a206dc7c12da727e01792f9ee333512366.png" width="150" alt="Google Play"></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center">
+          <img src="images/2a15941d52483b1fa911524dd6bf324242e28344.png" class="rounded-circle mb-3" width="150" alt="Logo">
+          <p>Getting money is our motive</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4>Useful Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Coupons</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Blog Post</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Return Policy</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Join Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4>Follow Us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Facebook</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Twitter</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Instagram</a></li>
+            <li><a href="#" class="text-white text-decoration-none">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="mt-5 mb-3 border-light opacity-25">
+      <p class="text-center text-secondary mb-0">&copy; 2025 - Group 2</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

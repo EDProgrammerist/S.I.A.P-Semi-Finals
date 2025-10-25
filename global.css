@@ -1,0 +1,156 @@
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+}
+
+/* Header */
+.site-header img {
+  transition: transform 0.3s ease;
+}
+.site-header img:hover {
+  transform: scale(1.05);
+}
+
+/* Section Titles */
+.section-title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.title-underline {
+  width: 80px;
+  height: 4px;
+  background-color: #000;
+  border: none;
+  margin: 0 auto;
+}
+
+/* Product Cards */
+.product-card {
+  border: 1px solid #eaeaea;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: 0.3s;
+  height: 100%;
+}
+.product-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+.product-image {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.product-rating .star {
+  width: 20px;
+  height: 20px;
+  background-color: #d9d9d9;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  display: inline-block;
+}
+.product-rating .star.filled {
+  background-color: #e49217;
+}
+.product-price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+}
+
+/* About Section */
+.about-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Contact Section */
+.contact-form .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  padding: 0.75rem 1rem;
+}
+.contact-form .form-control:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.site-footer h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.site-footer a:hover {
+  color: #e49217;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .hero-section {
+    text-align: center;
+  }
+  .hero-image img {
+    max-width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .product-card {
+    padding: 1rem;
+  }
+  .product-name {
+    font-size: 1rem;
+  }
+}
+
+/* Navbar tweaks */
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+}
+
+/* Ensure responsiveness triggers immediately */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Force immediate responsiveness fix */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+/* Ensure map image scales perfectly */
+.map-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Prevent layout shift when loading */
+* {
+  box-sizing: border-box;
+}
