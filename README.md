@@ -1,0 +1,1 @@
+Sir tapos na po
